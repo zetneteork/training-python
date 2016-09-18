@@ -1,4 +1,6 @@
-Simple types:
+# Variables, objects and types
+
+## Simple types
 
     >>> text = "Monty Python – Life of Brian"
     >>> stars = 75 * '*'
@@ -20,6 +22,11 @@ Simple types:
     ... 3 +
     ... 4)
 
+
+    >>> x = 0xff
+    >>> x = 0b00010000
+    >>> x = 0o777
+
     >>> x = y = z = 0
 
     >>> e, f = 1, 2
@@ -28,13 +35,13 @@ Simple types:
     >>> q = 1.2345678
     >>> round(q)
 
-Complex types:
+## Complex types
 
     >>> l = [1, 2, 3, 4]
     >>> t = (1, 2, 3, 4)
     >>> d = {"one": 1, "two": 2, "three": 3}
 
-String operations:
+## String operations
 
     >>> a = "asdf"
     >>> b = "zxcv"
@@ -53,7 +60,7 @@ String operations:
     >>> c[4:]
     'on'
 
-Identity:
+## Identity
 
     >>> l1 = ['a', 'b', 'c', 'd']
     >>> id(l1)

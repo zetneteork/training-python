@@ -1,22 +1,20 @@
 Python I (2 days)
 
   * 00 – About Python
-  * 01 – Python 3.x and 2.x
-  * 02 – Interactive interpreter
-  * 03 – Variables, objects, identity, assignment
+  * 01 – Interactive interpreter
+  * 02 – Variables, objects, identity, assignment
           - Basic data types
           - Composite data types
-  * 04 – Basic output and string formatting
-  * 05 – Internationalization and Unicode
-  * 06 – Executable scripts
-  * 07 – Control flow (conditions, loops)
-  * 07.5 - Exception handling
+  * 03 – Basic output and string formatting
 
-  * 08 – Input, output, file access
-  * 09 – Functions, local variables
-  * 10 - Modules, packages, bytecode and compilation
-  * 11 - Classes, instances, attributes, methods
-  * 12 - Constructors and super()
+  * 04 – Executable scripts, modules and packages
+  * 05 – Control flow (loops, conditions, exceptions)
+
+  * 06 – Input, output, file access, internationalization, unicode
+  * 07 – Functions, local variables
+  * 08 - Classes, instances, attributes, methods
+
+  * 09 - Constructors and super()
   * ? Language constructs
   * Standard library bits
   * 99 - Available literature
