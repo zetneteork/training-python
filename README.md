@@ -12,12 +12,11 @@ Python I (2 days)
 
   * 06 – Input, output, file access, internationalization, unicode
   * 07 – Functions, local variables
-  * 08 - Classes, instances, attributes, methods
+  * 08 – Classes, instances, attributes, methods
 
-  * 09 - Constructors and super()
-  * ? Language constructs
-  * Standard library bits
-  * 99 - Available literature
+  * 09 – Constructors and inheritance
+  * 10 – Standard library bits
+  * 11 – Available literature
 
 Python II (3 days)
 
