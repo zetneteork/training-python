@@ -14,6 +14,8 @@
       - Indentation is part of syntax
       - Feature rich standard library
       - Active development
+  * High level versus slow code
+      - Using modules written in C
   * Current versions
       - Latest 3.5.x with all modern elements
       - Legacy 2.7.x with compatibility features

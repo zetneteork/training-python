@@ -1,5 +1,7 @@
 # Variables, objects and types
 
+TODO: bitwise
+
 ## Simple types
 
     >>> text = "Monty Python – Life of Brian"
@@ -35,12 +37,6 @@
     >>> q = 1.2345678
     >>> round(q)
 
-## Complex types
-
-    >>> l = [1, 2, 3, 4]
-    >>> t = (1, 2, 3, 4)
-    >>> d = {"one": 1, "two": 2, "three": 3}
-
 ## String operations
 
     >>> a = "asdf"
@@ -59,6 +55,17 @@
     'th'
     >>> c[4:]
     'on'
+
+TODO string functions: strip, ..
+
+## Composite types
+
+    >>> l = [1, 2, 3, 4]
+    >>> t = (1, 2, 3, 4)
+    >>> d = {"one": 1, "two": 2, "three": 3}
+    >>> s = set([1, 2, 3, 4])
+
+TODO: sorted list, multidimensional array, chess, whatever
 
 ## Identity
 

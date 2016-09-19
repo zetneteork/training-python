@@ -10,7 +10,7 @@
     >>> print("Tell me your name: ", end='')
     >>> name = input()
 
-    >>> name input("Tell me your name: ")
+    >>> print("Your name is", input("Tell me your name: "))
 
 ## Basic formatting features
 
@@ -24,3 +24,9 @@
     Pi is approximately 3.14
     >>> print("{} + {} = {}".format(2, 3, 2 + 3))
     2 + 3 = 5
+
+## Final examples
+
+    >>> a = input("a = ")
+    >>> b = input("b = ")
+    >>> print("{} + {} = {}".format(a, b, a + b))

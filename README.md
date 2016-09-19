@@ -5,8 +5,8 @@ Python I (2 days)
   * 02 – Variables, objects, identity, assignment
           - Basic data types
           - Composite data types
-  * 03 – Basic output and string formatting
 
+  * 03 – Basic input/output and string formatting
   * 04 – Executable scripts, modules and packages
   * 05 – Control flow (loops, conditions, exceptions)
 

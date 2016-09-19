@@ -7,12 +7,16 @@
   * Relative module import (from another module)
   * Module can be a script at the same time
 
+Example: module.py
+
 ## Script
 
   * UNIX: Executable file with shebang, not necessarily with `.py` suffix
       - Shebang for python, python2 or python3
   * Windows: Just as any other module
   * Character encoding specification (needed for Python 3.x)
+
+Example: script.py
 
 ## Split script code
 
