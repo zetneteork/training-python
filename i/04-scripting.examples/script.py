@@ -3,7 +3,10 @@
 
 import module
 
+hello = "Hello world!"
+ahoj = "Ahoj světe!"
+
 if __name__ == '__main__':
     print(module.text)
-    print("Hello world!")
-    print("Ahoj světe!")
+    print(hello)
+    print(ahoj)

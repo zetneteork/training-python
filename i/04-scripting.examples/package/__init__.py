@@ -1,0 +1,1 @@
+text = "Žluťoučký kůň"
