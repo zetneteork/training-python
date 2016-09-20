@@ -4,6 +4,7 @@ from __future__ import print_function
 
 import sys
 
+
 class Hello:
     def set_defaults(self):
         self.data = {}
@@ -37,6 +38,7 @@ class Hello:
                 lang, text = line.split(":", 1)
                 self.data[lang.strip()] = text.strip()
 
+
 class Application:
     def usage(self):
         sys.exit("Usage: {} read|write".format(sys.argv[0]))
@@ -66,6 +68,7 @@ class Application:
             self.read()
         else:
             self.usage()
+
 
 if __name__ == '__main__':
     application = Application()
