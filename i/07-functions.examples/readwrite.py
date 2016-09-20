@@ -4,6 +4,7 @@ from __future__ import print_function
 
 import sys
 
+
 def write_file(filename):
     with open(filename, "w") as stream:
         print("#", file=stream)
@@ -16,6 +17,7 @@ def write_file(filename):
         print("pl:", "Dzień dobry!", file=stream)
         print("it:", "Buon giorno!", file=stream)
         print("ru:", "Добрый день!", file=stream)
+
 
 def read_file(filename):
     texts = {}
@@ -32,8 +34,10 @@ def read_file(filename):
             texts[lang.strip()] = text.strip()
     return texts
 
+
 def usage():
     sys.exit("Usage: {} read|write".format(sys.argv[0]))
+
 
 def main():
     try:
@@ -51,6 +55,7 @@ def main():
         print(data)
     else:
         usage()
+
 
 if __name__ == '__main__':
     main()
